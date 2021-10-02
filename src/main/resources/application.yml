@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo
+  config:
+    import: "aws-parameterstore:"
+cloud:
+  aws:
+    region:
+      auto: false
+    stack:
+      auto: false
+aws:
+  paramstore:
+    region: us-east-2
